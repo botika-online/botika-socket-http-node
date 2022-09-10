@@ -1,14 +1,14 @@
 {
-  "name": "botika-socket-http-node",
+  "name": "botika-socket",
   "version": "1.0.0",
   "description": "Node.js client to interact with the Botika Socket REST API",
-	"main": "dist/socket.js",
-	"types": "dist/socket.d.ts",
-	"files": [
-	  "/dist"
-	],
+  "main": "dist/socket.js",
+  "types": "dist/socket.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-	  "build": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,10 @@
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
-	  "typescript": "^4.8.2"
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ts-log": "^2.2.4"
   }
 }
